@@ -71,7 +71,7 @@ export class NgxBootstrapMultiselectDropdownComponent implements OnInit, Control
     // Set text when selecting item from dropdown
     setSelectedText() {
         this.selectedText = this.selectedItems.length
-            ? `${this.selectedItems.length} ${this.selectedItems.length > 1 ? this.innerSettings.itemSingluarText : this.innerSettings.itemPluralText} selected`
+            ? `${this.selectedItems.length} ${this.selectedItems.length > 1 ? this.innerSettings.itemPluralText : this.innerSettings.itemSingularText} selected`
             : this.innerSettings.noneSelectedBtnText;
     }
 

@@ -59,6 +59,8 @@ this.dropdownSettings = {<br>
 &emsp;&emsp;btnClasses: 'btn btn-primary btn-sm dropdown-toggle',<br>
 &emsp;&emsp;selectionLimit: 3,<br>
 &emsp;&emsp;enableFilter: true<br>
+&emsp;&emsp;itemSingularText: 'status'<br>
+&emsp;&emsp;itemPluralText: 'statuses'<br>
 };<br>
 <br>
 </code>
@@ -166,6 +168,18 @@ this.dropdownSettings = {<br>
             <td>string</td>
             <td>-</td>
             <td>Additional CSS classes added to dropdown menu toggle button.</td>
+        </tr>
+        <tr>
+            <th>itemSingularText</th>
+            <td>string</td>
+            <td>item</td>
+            <td>Noun that is displayed when one drop down item is active eg. 1 <i>item</i> selected.</td>
+        </tr>
+        <tr>
+            <th>itemPluralText</th>
+            <td>string</td>
+            <td>items</td>
+            <td>Noun that is displayed when more than one drop down item is active eg. 3 <i>items</i> selected.</td>
         </tr>
     </tbody>
 </table>

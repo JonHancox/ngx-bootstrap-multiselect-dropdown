@@ -14,7 +14,7 @@ export class DropdownSettings {
     showDeselectAllBtn: boolean = null;
     showSelectAllBtn: boolean = null;
     btnClasses: string = null;
-    itemSingluarText: string = 'item';
+    itemSingularText: string = 'item';
     itemPluralText: string = 'items';
 
     constructor(settings?: any) {
@@ -33,7 +33,7 @@ export class DropdownSettings {
         this.btnWidth = settings.btnWidth || this.btnWidth; 
         this.dropdownHeight = settings.dropdownHeight || this.dropdownHeight;
         this.btnClasses = settings.btnClasses;
-        this.itemSingluarText = settings.itemSingularText || this.itemSingluarText;
+        this.itemSingularText = settings.itemSingularText || this.itemSingularText;
         this.itemPluralText = settings.itemPluralText || this.itemPluralText;
     }
 }
